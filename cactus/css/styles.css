@@ -1,0 +1,123 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap'); */
+
+.home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.home .box {
+    position: relative;
+    height: 100vh;
+}
+
+.home .box:last-child {
+    background-color: #ff0;
+}
+
+header {
+    font-family: "Poppins";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    position: relative;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: black;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    margin-left: 30px;
+}
+
+header ul li a {
+    font-weight: 500;
+    color: #bdbdbd;
+    letter-spacing: 1px;
+    font-size: 1em;
+    transition: 0.4s;
+}
+
+header ul li a:hover {
+    color: #322;
+}
+
+.content {
+    font-family: "Montserrat";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.content h1 {
+    font-size: 3em;
+    color: black;
+    font-weight: 700;
+}
+
+.content p {
+    font-size: .8em;
+    color: #322;
+    letter-spacing: 1px;
+}
+
+.content .btn {
+    display: inline-block;
+    font-size: .8em;
+    margin-top: 30px;
+    color: black;
+    font-weight: 500;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.content .btn:hover {
+    background-color: black;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.sci {
+    font-family: "Montserrat";
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 30px;
+    right: 60px;
+}
+
+.sci h3 {
+    font-size: .8em;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.sci li {
+    margin-left: 20px;
+}
+
+.images  img {
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+}
